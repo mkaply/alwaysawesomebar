@@ -1,0 +1,28 @@
+<?xml version="1.0"?>
+<RDF xmlns="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+     xmlns:em="http://www.mozilla.org/2004/em-rdf#">
+  <Description about="urn:mozilla:install-manifest">
+    <em:id>alwaysawesomebar@kaply.com</em:id>
+    <em:name>Always Awesome Bar</em:name>
+    <em:version>1.0.2</em:version>
+    <em:type>2</em:type>
+    <em:description>Alleviating absent Awesome Bar angst</em:description>
+	<em:creator>Mike Kaply (Kaply Consulting)</em:creator>
+	<em:contributor>Thanks to Eric Shepherd for the name and description</em:contributor>
+	<em:homepageURL>http://mike.kaply.com</em:homepageURL>
+    <em:bootstrap>true</em:bootstrap>
+    <em:targetApplication>
+      <Description>
+        <em:id>{ec8030f7-c20a-464f-9b0e-13a3a9e97384}</em:id>
+        <em:minVersion>10.0</em:minVersion>
+        <em:maxVersion>10.*</em:maxVersion>
+      </Description>
+    </em:targetApplication>
+    <em:targetApplication>
+      <Description>
+        <em:id>{92650c4d-4b8e-4d2a-b7eb-24ecf4f6b63a}</em:id>
+        <em:minVersion>2.0</em:minVersion>
+        <em:maxVersion>2.0.*</em:maxVersion>
+      </Description>    </em:targetApplication>
+  </Description>
+</RDF>
